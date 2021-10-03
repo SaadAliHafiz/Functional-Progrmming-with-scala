@@ -5,7 +5,7 @@ object Task2{
         if(start==end) charList
         else recursion(start.toChar :: charList,start+1,end)
       }
-      recursion(List(),start,123).reverse  //As the letter z ends in 122 we take +1 as the function will return in -1 of itself
+      recursion(List(),start,123).reverse
     }
     println(s"Characters Printer Using Tail Recursion = ${charArray(65)}")
   }
